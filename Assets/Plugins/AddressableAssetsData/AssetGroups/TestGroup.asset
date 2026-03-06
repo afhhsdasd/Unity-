@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TestGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: TestGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fbfacc044f98510458afdacad40e5f60
+  m_SerializeEntries:
+  - m_GUID: 006c82898167570429dba31a142de01d
+    m_Address: Canvas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cbf8189007ea2042bac268ea5abc22c
+    m_Address: "\u4F20\u9001\u5E26"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameObj
+    - Structure
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4063295e4c703164a899864faf273f02
+    m_Address: "\u70AE\u5854"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameObj
+    - Structure
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4520d6ff244834b43a9e9ed0ff851d8d
+    m_Address: PanelBegin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6930455d51111dd43993e54dc8b6476e
+    m_Address: "\u5175\u8425"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameObj
+    - Structure
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf9f64d83236f3c488fbaa8fbee85a6a
+    m_Address: PanelTip_P
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db1a9897ffb98e44696339c34c56b90b
+    m_Address: PanelSetting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc740d3d9f59541cd9a4adbea33c40bd
+    m_Address: "\u6316\u6398\u673A"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameObj
+    - Structure
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7b787867072ea6848991bf752c5dbce4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 11cd6a3a405406b4a9790b069e17375a, type: 2}
+    - {fileID: 11400000, guid: f8d1884738660454a9860e00ed702af0, type: 2}
