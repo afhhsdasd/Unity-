@@ -26,7 +26,8 @@ shader；（具体实现详情请查看GridSystem文件夹中GridDraw脚本）
 指定的建筑按键包括B建进入第二个协程，即可开始选择建筑，放置函数中同时订阅两个函数，一个负责鼠标左键放置，一个负责鼠标右键取消建筑
 也就是说当进入第一个协程时订阅放置函数，当进入第二个协程时订阅鼠标操作的两个函数，这便是分级设计。（建筑数据脚本请查看
 GridSystem文件夹中的BuildingModel_C脚本）[动画](https://github.com/user-attachments/assets/673d2e85-73aa-41b7-a5bc-84377952c214)
- 
+ <img width="1167" height="582" alt="屏幕截图2026 03 09" src="https://github.com/user-attachments/assets/292e1fd2-4571-4415-94c8-6f616927ae23" />
+
 2.2 高级单位控制逻辑
  
 - 组件解耦：实现士兵身体移动与炮塔索敌攻击的完全解耦，支持炮塔独立转向、自动归位。
